@@ -903,4 +903,35 @@ p {
     .main-nav-links ul li a{
         color: var(--color-black) !important;
     }
+    .sm-pb{
+        margin-bottom: 30px;
+    }
+
+    .sm-mrgin-top{
+        margin-top: 0.5rem !important;
+    }
+    .srv-bx{
+        height: 310px;
+    }
+    .srvce-cnt-box-2 {
+        height: 350px;
+    }
+    .srvce-img-4 {
+        height:  400px;
+    }
+    .srvce-img-5{
+        height: 400px;
+    }
+    .srvce-img {
+        height: 400px !important;
+    }
+    .srvce-box-2{
+        height: 400px;
+    }
+    .abt-div {
+        height: 400px;
+    }
+    .srvce-img-3 {
+        height: 400px;
+    }
 }

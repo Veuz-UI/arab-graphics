@@ -17,35 +17,7 @@
     
 
 <div class="home-banner">
-    <nav class="navbar navbar-expand-lg navbar-light main-nav" id="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <img src="assets/img/logo-white.png" alt="" class="img-fluid">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse main-nav-links" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-            </ul>
-        
-              <button class="btn btn-outline-success nav-btn " type="submit">Get in touch with us</button>
-         
-          </div>
-        </div>
-    </nav>
+  <?php include("header.php")?>
     <div class="overlay"></div>
     <div class="banner-content">
       <h2>Stand Out in a Sea of Mediocrity <span>Choose Arab Graphics for Stunning Designs!</span></h2>
@@ -63,7 +35,7 @@
 
 <section class="abt-section mrg-top-10">
   <div class="row gx-2">
-         <div class="col-lg-6 ">
+         <div class="col-lg-6">
       <div class="abt-bx">
         <h6 class="small-head">
           About Us
@@ -82,7 +54,7 @@
     </div>
     <div class="col-lg-6">
       <div class="row gx-2">
-        <div class="col-lg-6 ">
+        <div class="col-lg-6 sm-mrgin-top">
           <div class="content abt-div">
             <a href="" target="_blank">
               <div class="content-overlay"></div>
@@ -93,7 +65,7 @@
             </a>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 sm-mrgin-top">
           <div class="content abt-div">
             <a href="" target="_blank">
               <div class="content-overlay"></div>
@@ -111,8 +83,8 @@
 
 <section class="srvce-section mrg-top-10">
   <div class="row gx-2">
-    <div class="col-lg-6">
-      <div class="content srvce-img">
+    <div class="col-lg-6 order-md-2 order-1">
+      <div class="content srvce-img sm-mrgin-top">
         <a href="" target="_blank">
           <div class="content-overlay"></div>
           <img class="content-image" src="assets/img/srvc-1.png" alt="">
@@ -130,13 +102,13 @@
               </svg>    
               <h3 class="head-2">Offset Printing</h3> 
               <button class="primary-btn btn-1 hover-filled-slide-down white-btn" type="button">
-                <span>About Us</span>
+                <span>View More</span>
             </button>    
           </div>
         </div>
         <div class="col-lg-6 ">
           <div class="col-lg-12">
-            <div class="content srvce-img-2">
+            <div class="content srvce-img-2 sm-mrgin-top">
               <a href="" target="_blank">
                 <div class="content-overlay"></div>
                 <img class="content-image" src="assets/img/srvc-2.png" alt="">
@@ -147,7 +119,7 @@
             </div>
           </div>
           <div class="col-lg-12 mrg-top-10">
-            <div class="content srvce-img-2">
+            <div class="content srvce-img-2 sm-mrgin-top">
               <a href="" target="_blank">
                 <div class="content-overlay"></div>
                 <img class="content-image" src="assets/img/srvc-3.png" alt="">
@@ -160,7 +132,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 order-md-1 order-2">
       <div class="srv-bx ">
         <h6 class="small-head">
           our services
@@ -206,7 +178,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="content srvce-img-4">
+          <div class="content srvce-img-4 sm-mrgin-top">
             <a href="" target="_blank">
               <div class="content-overlay"></div>
               <img class="content-image" src="assets/img/srvc-6.png" alt="">
@@ -231,7 +203,7 @@
 </section>
 
 <section class="adv-service mrg-top-10">
-  <div class="row gx-2">
+  <div class="row gx-2 ">
     <div class="col-lg-5">
       <div class="adv-srv-bx">
         <h6 class="small-head">
@@ -324,7 +296,7 @@
         </div>
       </div>
       <div class="col-lg-3">
-        <div class="content contact-img">
+        <div class="content contact-img sm-mrgin-top">
           <a href="" target="_blank">
             <div class="content-overlay"></div>
             <img class="content-image" src="assets/img/contact.png" alt="">
@@ -335,7 +307,7 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="contct-inpt-box">
+        <div class="contct-inpt-box sm-mrgin-top">
           <div class="wave-group">
             <input required="" type="text" class="input">
             <span class="bar"></span>
@@ -382,74 +354,7 @@
 </section>
 
 
-<section class="footer mrg-top-10">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="footer-logo">
-          <img src="assets/img/logo-white.png" alt="">
-          <p class="footer-para">Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s, when an 
-            unknown printer took a galley of type and</p>
-        </div>
-      </div>
-      <div class="col-lg-2">
-        <h3 class="footer-sub-head">Useful Links</h3>
-
-        <ul class="footer-links">
-          <a href="" class="active"> <li>Home</li></a>
-          <a href=""> <li>About </li></a>
-          <a href=""> <li>Service</li></a>
-          <a href=""> <li>Contact</li></a>
-          </a>
-        </ul>
-      </div>
-      <div class="col-lg-3">
-        <h3 class="footer-sub-head">Need help</h3>
-        <div class="footer-contact-div">
-          <i class="fas fa-phone-alt"></i>
-          <a href="">
-            <h6>
-              +966 56 619 1796
-            </h6>
-          </a>
-        </div>
-
-        <div class="footer-contact-div">
-          <i class="fas fa-envelope"></i>
-          <a href="">
-            <h6>
-              info@arabgraphics.com
-            </h6>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <h3 class="footer-sub-head">Subscribe Our Newsletter</h3>
-        <p class="footer-para">
-          Lorem Ipsum is simply dummy text of the 
-          printing and typesetting industry. Lorem Ipsum
-          has been the industry's standard dummy text 
-        </p>
-        <div class="footer-input">
-          <input type="text" placeholder="Enter Mail">
-          <a href="">
-            <i class="fas fa-paper-plane"></i>
-          </a>
-            
-          
-        </div>
-      </div>
-    </div>
-
-    <div class="line"></div>
-
-    <a href="" class="footer-info">
-      <h6>©2024 Arab Graphics. All rights reserved</h6>
-    </a>
-  </div>
-</section>
+<?php include("footer.php")?>
 
 
 
